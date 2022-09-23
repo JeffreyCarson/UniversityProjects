@@ -1,0 +1,65 @@
+Jeffrey Carson
+UNR CS 302
+Project 4 LOG
+11/24/20
+
+***Go into build folder and type ./proj4 to run executable***
+
+
+//
+//     PROGRAM OUTPUT
+//
+
+
+***TESTING LLRBT WITH 10 VALUES***
+(*Parent and Node values are relative to state of tree during that insertion.)
+
+1] Inserting Value 1: Color = Black
+
+2] Inserting Value 2: Color = Black
+
+3] Inserting Value 9: Color = Black
+Parent Value 2: Color = Black
+
+4] Inserting Value 4: Color = Red
+Parent Value 9: Color = Black
+
+5] Inserting Value 6: Color = Black
+
+6] Inserting Value 3: Color = Red
+Parent Value 4: Color = Black
+
+7] Inserting Value 7: Color = Red
+Parent Value 9: Color = Black
+
+8] Inserting Value 11: Color = Black
+Parent Value 9: Color = Black
+
+9] Inserting Value 5: Color = Black
+Parent Value 4: Color = Black
+
+10] Inserting Value 8: Color = Black
+Parent Value 9: Color = Black
+
+-Inorder Traversal:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+11
+-Inorder Traversal After Deleting 4th Inserted element:
+1
+2
+3
+5
+6
+7
+8
+9
+11
+

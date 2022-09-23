@@ -1,0 +1,2 @@
+/usr/bin/ar qc libBinarySearchTree.a  CMakeFiles/BinarySearchTree.dir/src/BinarySearchTree.cpp.o
+/usr/bin/ranlib libBinarySearchTree.a

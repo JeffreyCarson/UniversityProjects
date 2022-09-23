@@ -1,0 +1,74 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/BinaryNode.h
+memory
+-
+
+../include/BinaryNodeTree.h
+BinaryTreeInterface.h
+../include/BinaryTreeInterface.h
+BinaryNode.h
+../include/BinaryNode.h
+PrecondViolatedExcept.h
+../include/PrecondViolatedExcept.h
+NotFoundException.h
+../include/NotFoundException.h
+
+../include/BinarySearchTree.h
+BinaryTreeInterface.h
+../include/BinaryTreeInterface.h
+BinaryNode.h
+../include/BinaryNode.h
+BinaryNodeTree.h
+../include/BinaryNodeTree.h
+NotFoundException.h
+../include/NotFoundException.h
+PrecondViolatedExcept.h
+../include/PrecondViolatedExcept.h
+memory
+-
+
+../include/BinaryTreeInterface.h
+iostream
+-
+stdexcept
+-
+
+../include/NotFoundException.h
+stdexcept
+-
+string
+-
+
+../include/PrecondViolatedExcept.h
+stdexcept
+-
+string
+-
+
+/home/jeffreycarson/Desktop/cs302/Project 3/hw4/src/BinarySearchTree.cpp
+BinarySearchTree.h
+/home/jeffreycarson/Desktop/cs302/Project 3/hw4/src/BinarySearchTree.h
+BinaryTreeInterface.h
+/home/jeffreycarson/Desktop/cs302/Project 3/hw4/src/BinaryTreeInterface.h
+BinaryNode.h
+/home/jeffreycarson/Desktop/cs302/Project 3/hw4/src/BinaryNode.h
+BinaryNodeTree.h
+/home/jeffreycarson/Desktop/cs302/Project 3/hw4/src/BinaryNodeTree.h
+NotFoundException.h
+/home/jeffreycarson/Desktop/cs302/Project 3/hw4/src/NotFoundException.h
+PrecondViolatedExcept.h
+/home/jeffreycarson/Desktop/cs302/Project 3/hw4/src/PrecondViolatedExcept.h
+memory
+-
+stdexcept
+-
+iostream
+-
+

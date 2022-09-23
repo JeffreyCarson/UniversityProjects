@@ -1,0 +1,23 @@
+Jeffrey Carson
+CS446 Project 1
+Part 2 Questions
+
+
+
+
+1) What is a system call? What system calls do we implement in our c code?
+
+    A system call is the where a program requests a service from the kernel. Programs essentially interact with the operating system through these system calls. We use these calls throughout the c code needed for this project, some examples are fork(), wait(), fread(), fopen(), fclose(), and kill().
+    
+2) We use execvp in our program. We could just as easily use execve. Compare and contrast the two.
+
+	The difference between the to commands are subtle, but important. Execvp, which we use in our project, uses the current path environment variable to find your program automatically without the hassle of manually defining the path. It makes more sense to use execvp in the context of this project. In cases where manually specifying the path makes sense, execve would be better. 
+    
+3) We use kill to terminate our program. This is not a graceful way to stop the program. What alternative system calls are there? What would we need to consider whenever we called these alternatives? Why is kill easier here?
+
+	There are quite a few alternatives to using kill. These include killall and pkill most notably. When using for instance killall, the name of a process can be given and if multiple processes posses that name, then they will all be killed. Pkill kills a process given its name. Kill is easier here because you are able to kill a process by giving its PID, which is easier within our c program.
+    
+4)If you were to redesign this program, how could you improve it? Hint: think about the issues you saw while you ran the provided executable, and any ineffecient functionality or system calls. 
+
+	If I were to redesign this program, I would add a few more edge cases. For instance, if the user simply enters a new line at the prompt, the executable at least would seg fault. I was luckily able to fix this in my program. Also, given more time, I believe that it would be interesting to perhaps add more functionality such as multiple commands on one like using (&&) and also file concatination (>>). For the most part, the functionality seemed fairly efficient, and the only suggestion that I can make to improve this may be implimenting OOP and Design Patterns to increate the modularity of the code.
+

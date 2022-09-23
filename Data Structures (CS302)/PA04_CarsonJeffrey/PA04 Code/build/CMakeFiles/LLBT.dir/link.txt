@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLLBT.a  CMakeFiles/LLBT.dir/src/LeftLeaningRedBlack.cpp.o
+/usr/bin/ranlib libLLBT.a

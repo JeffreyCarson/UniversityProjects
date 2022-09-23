@@ -1,0 +1,2 @@
+/usr/bin/ar qc libNotFoundException.a  CMakeFiles/NotFoundException.dir/src/NotFoundException.cpp.o
+/usr/bin/ranlib libNotFoundException.a

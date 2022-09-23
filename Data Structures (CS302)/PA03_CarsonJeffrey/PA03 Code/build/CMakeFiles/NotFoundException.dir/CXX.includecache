@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/NotFoundException.h
+stdexcept
+-
+string
+-
+
+/home/jeffreycarson/Desktop/cs302/Project 3/hw4/src/NotFoundException.cpp
+NotFoundException.h
+/home/jeffreycarson/Desktop/cs302/Project 3/hw4/src/NotFoundException.h
+

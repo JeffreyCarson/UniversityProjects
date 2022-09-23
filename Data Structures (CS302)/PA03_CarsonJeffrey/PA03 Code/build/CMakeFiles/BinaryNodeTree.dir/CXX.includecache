@@ -1,0 +1,56 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/BinaryNode.h
+memory
+-
+
+../include/BinaryNodeTree.h
+BinaryTreeInterface.h
+../include/BinaryTreeInterface.h
+BinaryNode.h
+../include/BinaryNode.h
+PrecondViolatedExcept.h
+../include/PrecondViolatedExcept.h
+NotFoundException.h
+../include/NotFoundException.h
+
+../include/BinaryTreeInterface.h
+iostream
+-
+stdexcept
+-
+
+../include/NotFoundException.h
+stdexcept
+-
+string
+-
+
+../include/PrecondViolatedExcept.h
+stdexcept
+-
+string
+-
+
+/home/jeffreycarson/Desktop/cs302/Project 3/hw4/src/BinaryNode.cpp
+iostream
+-
+BinaryNode.h
+/home/jeffreycarson/Desktop/cs302/Project 3/hw4/src/BinaryNode.h
+
+/home/jeffreycarson/Desktop/cs302/Project 3/hw4/src/BinaryNodeTree.cpp
+iostream
+-
+BinaryNodeTree.h
+/home/jeffreycarson/Desktop/cs302/Project 3/hw4/src/BinaryNodeTree.h
+BinaryNode.cpp
+/home/jeffreycarson/Desktop/cs302/Project 3/hw4/src/BinaryNode.cpp
+algorithm
+-
+

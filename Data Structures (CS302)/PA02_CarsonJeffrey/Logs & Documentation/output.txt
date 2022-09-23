@@ -1,0 +1,52 @@
+//PROGRAM OUTPUT//
+
+---Testing Insertion Sort 1000 Elements--- 
+Average time to sort in Microseconds: 0.00214228
+Number of Swaps: 248048
+Number of Comparisons: 249048
+Average time to sort Presorted Array in Microseconds: 8.937e-06
+Number of Swaps: 0
+Number of Comparisons: 1000
+
+---Testing Insertion Sort 10000 Elements--- 
+Average time to sort in Microseconds: 0.431815
+Number of Swaps: 25006254
+Number of Comparisons: 25016254
+Average time to sort Presorted Array in Microseconds: 9.49659e-05
+Number of Swaps: 0
+Number of Comparisons: 10000
+
+---Testing Insertion Sort 100000 Elements--- 
+Average time to sort in Microseconds: 45.335
+Number of Swaps: 2498146127
+Number of Comparisons: 2498246127
+Average time to sort Presorted Array in Microseconds: 0.00432198
+Number of Swaps: 0
+Number of Comparisons: 100000
+
+
+---Testing Quick Sort 1000 Elements--- 
+Average time to sort in Microseconds: 0.000283946
+Number of Swaps: 7912
+Number of Comparisons: 7228
+Average time to sort Presorted Array in Microseconds: 0.010665
+Number of Swaps: 322560
+Number of Comparisons: 321814
+
+---Testing Quick Sort 10000 Elements--- 
+Average time to sort in Microseconds: 0.00954913
+Number of Swaps: 96156
+Number of Comparisons: 89363
+Average time to sort Presorted Array in Microseconds: 1.32754
+Number of Swaps: 31403817
+Number of Comparisons: 31396479
+
+---Testing Quick Sort 100000 Elements--- 
+Average time to sort in Microseconds: 0.0947855
+Number of Swaps: 1131400
+Number of Comparisons: 1063780
+Average time to sort Presorted Array in Microseconds: 119.292
+Number of Swaps: 3154319554
+Number of Comparisons: 3154245984
+
+

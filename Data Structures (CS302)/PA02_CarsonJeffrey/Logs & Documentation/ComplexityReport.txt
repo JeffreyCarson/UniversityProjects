@@ -1,0 +1,38 @@
+Jeffrey Carson
+October 8, 2020
+Project 2
+Theoretical Complexity Report
+
+Insertion sort has a theoretical best case performance of O(n) comparisons and O(1) swaps. But this is only when given an already sorted array. The average case is O(n^2) swaps and comparisons. This reflects what Was found in the timing of my program. For each presorted array tested, the number of comparisons was that of n. But for each unsorted test, the number of swaps and comparisons reflected that of O(n^2). For example:
+	//PROGRAM OUTPUT//
+	---Testing Insertion Sort 1000 Elements--- 
+	Average time to sort in Microseconds: 0.00214228
+	Number of Swaps: 248048
+	Number of Comparisons: 249048
+	---Testing Insertion Sort 10000 Elements--- 
+	Average time to sort in Microseconds: 0.431815
+	Number of Swaps: 25006254
+	Number of Comparisons: 25016254
+	---Testing Insertion Sort 100000 Elements--- 
+	Average time to sort in Microseconds: 45.335
+	Number of Swaps: 2498146127
+	Number of Comparisons: 2498246127
+	...
+As the arrays got longer, the time exponentially increases, this is due to the fact that insertion sort has to iterate throughout the entire array for each increment in the index. This again follows the trend of O(n^2).
+
+QuickSort has a theoretical average performance of O(nlogn). The worst performance being O(n^2). This again is reflected in the output of the program. The already sorted array acts as a worst case test, due to the fact that it uses the right index as the pivot. This is kind of expressed in the results. For Example:
+	//PROGRAM OUTPUT//
+	...
+	---Testing Quick Sort 1000 Elements--- 
+	Average time to sort in Microseconds: 0.000283946
+	Number of Swaps: 7912
+	Number of Comparisons: 7228
+	---Testing Quick Sort 10000 Elements--- 
+	Average time to sort in Microseconds: 0.00954913
+	Number of Swaps: 96156
+	Number of Comparisons: 89363
+	---Testing Quick Sort 100000 Elements--- 
+	Average time to sort in Microseconds: 0.0947855
+	Number of Swaps: 1131400
+	Number of Comparisons: 1063780
+If the O(nlogn) was applicable here, we would he seeing a number of comparisons of around 3000. This could just be a rare case, bu that may be unlikely. What is consistent though is the increase in time and complexity. This is apparent across both of the sorting algorithems.

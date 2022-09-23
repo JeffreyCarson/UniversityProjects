@@ -1,0 +1,101 @@
+Jeffrey Carson
+CS302
+9/15/20
+Outputs of executables
+
+***BOTH POSTFIX AND DELIMITERS WORK WITH LINKED AND ARRAY IMPLEMENTATIONS OF STACK***
+
+
+-----Outputs of "postfix" executable (With Linked Inplementation)-----
+
+
+1) (3+4)*(5/2)
+
+	Terminal Output:
+
+		--USING LINKED STACK IMPLEMENTATION--
+
+		Equation: 3 4 + 5 2 / *
+		Result: 17.5
+
+2) (5+6)*(4/3)
+
+	Terminal Output:
+	
+		--USING LINKED STACK IMPLEMENTATION--
+
+		Equation: 5 6 + 4 3 / *
+		Result: 14.6667
+
+3) (3/(4-2+6))*(8-3)*2
+
+	Terminal Output:
+
+		--USING LINKED STACK IMPLEMENTATION--
+
+		Equation: 3 4 2 - 6 + / 8 3 - * 2 *
+		Result: 3.75
+
+4) 3^2(2)
+
+	Terminal Output:
+
+		--USING LINKED STACK IMPLEMENTATION--
+
+		Equation: 3 2 ^ 2 *
+		Result: 18
+
+5) (2+3)4
+		
+	Terminal Output:
+
+		--USING LINKED STACK IMPLEMENTATION--
+
+		Equation: 2 3 + 4 *
+		Result: 20
+
+
+
+
+
+
+
+
+-----Outputs of "delimiters" executable (With Linked Inplementation)-----
+
+	Terminal Output:
+
+		--USING LINKED STACK IMPLEMENTATION--
+		This program checks for properly matched delimiters.
+		Enter delimited expression (<EOF> to quit) : 
+		(a(b+c)d)
+		Valid
+		Enter delimited expression (<EOF> to quit) : 
+		{(9+4)(6)}
+		Valid
+		Enter delimited expression (<EOF> to quit) : 
+		{{()}}}
+		Invalid
+		Enter delimited expression (<EOF> to quit) : 
+		[]
+		Valid
+		Enter delimited expression (<EOF> to quit) : 
+		{]
+		Invalid
+		Enter delimited expression (<EOF> to quit) : 
+		{8-9(6*7)(5)*6
+		Invalid
+		Enter delimited expression (<EOF> to quit) : 
+		^C
+
+
+
+
+
+
+	
+
+
+
+
+

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/testTree.dir/src/test.cpp.o  -o testTree libBinaryNode.a libBinaryNodeTree.a libBinarySearchTree.a libNotFoundException.a libPrecondViolatedExcept.a 

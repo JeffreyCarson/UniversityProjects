@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/LeftLeaningRedBlack.h
+VoidRef.h
+../include/VoidRef.h
+cstdint
+-
+
+../include/VoidRef.h
+cstdint
+-
+
+/home/jeffreycarson/Desktop/cs302/Project 4/PA04 Code/src/main.cpp
+iostream
+-
+LeftLeaningRedBlack.h
+/home/jeffreycarson/Desktop/cs302/Project 4/PA04 Code/src/LeftLeaningRedBlack.h
+

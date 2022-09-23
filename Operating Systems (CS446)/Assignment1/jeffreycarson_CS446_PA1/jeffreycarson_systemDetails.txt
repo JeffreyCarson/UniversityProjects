@@ -1,0 +1,35 @@
+***CPU INFO /proc/cpuinfo ***
+
+
+['processor\t: 0\n', 'BogoMIPS\t: 48.00\n', 'Features\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb dcpodp flagm2 frint\n', 'CPU implementer\t: 0x00\n', 'CPU architecture: 8\n', 'CPU variant\t: 0x0\n', 'CPU part\t: 0x000\n', 'CPU revision\t: 0\n', '\n', 'processor\t: 1\n', 'BogoMIPS\t: 48.00\n', 'Features\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb dcpodp flagm2 frint\n', 'CPU implementer\t: 0x00\n', 'CPU architecture: 8\n', 'CPU variant\t: 0x0\n', 'CPU part\t: 0x000\n', 'CPU revision\t: 0\n', '\n', 'processor\t: 2\n', 'BogoMIPS\t: 48.00\n', 'Features\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb dcpodp flagm2 frint\n', 'CPU implementer\t: 0x00\n', 'CPU architecture: 8\n', 'CPU variant\t: 0x0\n', 'CPU part\t: 0x000\n', 'CPU revision\t: 0\n', '\n']
+
+
+***KERNEL VERSION DETAILS /proc/version***
+
+
+['Linux version 5.4.0-100-generic (buildd@bos02-arm64-015) (gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04)) #113-Ubuntu SMP Thu Feb 3 18:44:51 UTC 2022\n']
+
+
+***AMOUNT OF TIME SINCE LAST BOOT /proc/uptime***
+[seconds, idle time]
+
+
+['1173.27 2919.02\n']
+
+
+***THE TIME THAT THE SYSTEM WAS LAST BOOTED /proc/stat***
+
+
+['cpu  48058 148 11472 290449 289 0 492 0 0 0\n', 'cpu0 16031 70 3723 96993 91 0 177 0 0 0\n', 'cpu1 16081 17 4083 96329 92 0 164 0 0 0\n', 'cpu2 15946 60 3665 97127 105 0 150 0 0 0\n', 'intr 2552517 0 0 456685 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 0 0 0 18936 3668 0 0 0 0 8451 7205 8245 0 47003 43742 1 10237 15675 230 0 0 0 0\n', 'ctxt 7904558\n', 'btime 1646460592\n', 'processes 4960\n', 'procs_running 1\n', 'procs_blocked 0\n', 'softirq 627850 5 196238 16 113651 1046 0 2472 147001 16 167405\n']
+
+
+***THE NUMBER OF DISK REQUESTS MADE /proc/diskstats***
+
+
+['   7       0 loop0 44 0 680 15 0 0 0 0 0 28 0 0 0 0 0\n', '   7       1 loop1 51 0 694 14 0 0 0 0 0 24 0 0 0 0 0\n', '   7       2 loop2 1252 0 3096 528 0 0 0 0 0 180 0 0 0 0 0\n', '   7       3 loop3 41 0 674 14 0 0 0 0 0 32 0 0 0 0 0\n', '   7       4 loop4 972 0 2536 687 0 0 0 0 0 120 0 0 0 0 0\n', '   7       5 loop5 55 0 702 16 0 0 0 0 0 36 0 0 0 0 0\n', '   7       6 loop6 1 0 2 0 0 0 0 0 0 4 0 0 0 0 0\n', '   7       7 loop7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n', ' 252       0 vda 23640 9663 1967354 5753 14136 26468 565618 14306 0 14908 1696 0 0 0 0\n', ' 252       1 vda1 219 0 13816 47 3 0 10 2 0 100 0 0 0 0 0\n', ' 252       2 vda2 176 15 11936 35 24 14 304 9 0 96 0 0 0 0 0\n', ' 252       3 vda3 23149 9648 1937154 5653 14109 26454 565304 14294 0 14872 1696 0 0 0 0\n', ' 253       0 dm-0 32770 0 1934962 8524 40546 0 565304 43272 0 14860 51796 0 0 0 0\n', '  11       0 sr0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n']
+
+
+***THE NUMBER OF PROCESSES SINCE LAST BOOT /proc/stat***
+
+
+['cpu  48058 148 11472 290449 289 0 492 0 0 0\n', 'cpu0 16031 70 3723 96993 91 0 177 0 0 0\n', 'cpu1 16081 17 4083 96329 92 0 164 0 0 0\n', 'cpu2 15946 60 3665 97127 105 0 150 0 0 0\n', 'intr 2552517 0 0 456685 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 0 0 0 18936 3668 0 0 0 0 8451 7205 8245 0 47003 43742 1 10237 15675 230 0 0 0 0\n', 'ctxt 7904558\n', 'btime 1646460592\n', 'processes 4960\n', 'procs_running 1\n', 'procs_blocked 0\n', 'softirq 627850 5 196238 16 113651 1046 0 2472 147001 16 167405\n']

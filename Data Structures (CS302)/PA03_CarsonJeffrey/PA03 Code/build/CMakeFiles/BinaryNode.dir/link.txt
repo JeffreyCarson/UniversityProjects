@@ -1,0 +1,2 @@
+/usr/bin/ar qc libBinaryNode.a  CMakeFiles/BinaryNode.dir/src/BinaryNode.cpp.o
+/usr/bin/ranlib libBinaryNode.a

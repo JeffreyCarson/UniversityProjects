@@ -1,0 +1,24 @@
+Jeffrey Carson
+UNR CS 302
+Project 4 - Left Leaning Red Black Trees (LLRBTs)
+11/24/20
+
+	The purpose of his assignment was to have students iperform the insertion of variables into a llrbt and the deletion of the 4th value inserted. We also had to output the color data from the inputted node and the parent node. In order for this to be possible two functions had to be implimented. These include a locateParent() function and a locateNode() function. These functions return a pointer to the found node. 
+	The values that were inserted were {1, 2, 9, 4, 6, 3, 7, 11, 5, 8} in this order. The resulting tree after all insertions would look like: 
+*Two lines (\\) indicates red node*
+
+	                   6
+                      / \
+                     /   \
+                    /     \
+                   4       9
+                 // \      / \
+                2    5     8  11
+               / \        //
+               1  3       7
+
+	The most difficult aspect of this project was understanding how llrb trees work and understanding the code package given to us. It was expremely difficult to decypher what was useful and not, and this made for the project to be much more difficult than needed. In the ed though, I learned a lot because if i were working at a company, I may be thrown into a similar situation that requires me to search through somebodies code like this. 
+
+
+
+	

@@ -1,0 +1,8 @@
+/home/jeffreycarson/Desktop/cs302/Project 4/PA04 Code/build/CMakeFiles/install/strip.dir
+/home/jeffreycarson/Desktop/cs302/Project 4/PA04 Code/build/CMakeFiles/install/local.dir
+/home/jeffreycarson/Desktop/cs302/Project 4/PA04 Code/build/CMakeFiles/proj4.dir
+/home/jeffreycarson/Desktop/cs302/Project 4/PA04 Code/build/CMakeFiles/LLBT.dir
+/home/jeffreycarson/Desktop/cs302/Project 4/PA04 Code/build/CMakeFiles/edit_cache.dir
+/home/jeffreycarson/Desktop/cs302/Project 4/PA04 Code/build/CMakeFiles/rebuild_cache.dir
+/home/jeffreycarson/Desktop/cs302/Project 4/PA04 Code/build/CMakeFiles/list_install_components.dir
+/home/jeffreycarson/Desktop/cs302/Project 4/PA04 Code/build/CMakeFiles/install.dir

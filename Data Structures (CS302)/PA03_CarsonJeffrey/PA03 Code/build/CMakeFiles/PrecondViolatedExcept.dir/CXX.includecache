@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/PrecondViolatedExcept.h
+stdexcept
+-
+string
+-
+
+/home/jeffreycarson/Desktop/cs302/Project 3/hw4/src/PrecondViolatedExcept.cpp
+PrecondViolatedExcept.h
+/home/jeffreycarson/Desktop/cs302/Project 3/hw4/src/PrecondViolatedExcept.h
+

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/BinaryNode.h
+memory
+-
+
+/home/jeffreycarson/Desktop/cs302/Project 3/hw4/src/BinaryNode.cpp
+iostream
+-
+BinaryNode.h
+/home/jeffreycarson/Desktop/cs302/Project 3/hw4/src/BinaryNode.h
+

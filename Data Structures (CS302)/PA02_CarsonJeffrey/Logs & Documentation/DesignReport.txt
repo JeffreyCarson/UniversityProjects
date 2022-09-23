@@ -1,0 +1,6 @@
+Jeffrey Carson
+October 8, 2020
+Project 2
+Importance of Good Design Report
+
+The design of computationally efficent solutions is extremely important with respect to social and economic factors. Algorithems are used constantly in every aspect of the world, but the most important ones play a huge role in the safely of the public. For instance, within mechanical public transportation mediums such as air travel, choosing the right algorithem to use ina  situation is essential to relaying information or completing tasks for the pilots. Efficient computing and the design of algorithems is essential for an efficent economy due to the fact that there is an ever growing online presence of people. Designing things to be as effiecnt as possible is necessary for our human race to continue to evolve and for out economies to boom. With the new app and website markets, online users will chose the websites with the fastest speeds and best user interface. Choosing the right algorithem to use and using efficent computing is definately the future of our soceity and will build a sustainable future for us all. 

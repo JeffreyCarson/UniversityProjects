@@ -1,0 +1,53 @@
+Jeffrey Carson
+CS302
+9/15/20
+Homework Assignment 1
+
+EXPLANATION OF PROJECT
+	This project was my first projeect within CS 302 - Data Structures. I found most of this assignment fairly easy, as it was just a refresher on stuff we did nearing the end of CS 202. The purpose of this assignment was to allow students to implement an ADT linked list version of a stack. This ADT stack was then used to implement two exercises. The first exercise was to create a program that could evaluate a postfix expression given by the user. This is fairly simply using a stack due to its LIFO order. You simply push the operands to the stack then when you encounter an operator, pop the last two added operands and apply the operator. The result then gets pushed back onto the stack. This loops until a final answer is arrived at. The next coding exercise was to implement a program that could check to see if the parenthesis in an equation were balanced. Again, this is made fairly easy by using the ADT Stack's LIFO properties. If you encounter an opening brace, push it to the stack. If you encounter a closing brace, pop the most recent element pushed to the stack, and check to see if the brackets match. If the stack is empty by the end of this operation, then the equation was balanced. 
+	
+MY PROCESS
+	Like I stated previously, this project really was not too difficult for me, as it was really just a refresher. Making the Linked and Array based implementations of the ADT Stack came fairly easily to me. I had a fun time using these data structures to complete the coding exercises. It was a lot more fun and engaging than all of the CS202 assignments.
+
+---EXPLANATION OF FUNCTIONS---
+
+**StackArray.cpp**
+
+	-CTOR: My constructor sets the maxsize of the object to the const variable MAX_STACK_SIZE, sets top to 0, 			and dynamically allocates a dataItems array with the max_size.
+	-COPY CTOR: Copies all of the data from the "other" object to the calling object.
+	-"=" Operator Overload: Assigns the data from the "Other" object.
+	-DTOR: dynamically deleted the dataItems array
+	-Push: If the array isnt full, assigns passed value to the top. If it is full, throw.
+	-POP: If the array isnt empty, lower top by 1. If it is empty, throw error.
+	-Clear: Sets top to 0.
+	-IsFull: If top is equal to max size, return true, else return false.
+	-IsEmpty: If top is equal to 0, return true, else return false.
+	-showStructure: Provided by Instructor.
+
+**StackLinked.cpp**
+
+	-CTOR: Sets top = to null ptr.
+	-COPY CTOR: Copies all of the data from the "other" object to the calling object, by using node iteration.
+	-"=" Operator Overload: Copies all of the data from the "other" object to the calling object, by using node iteration. Returns copied object.
+	-DTOR: Calls clear() function
+	-Push: Doesnt need to check if full because infinite. If top = nullptr, make new node that has the data that was passed. Else, make new node and and assign its next pointer to top.
+	-POP: If the array isnt empty, set the top to the previous nodes next pointer and dynamically delete. If empty throw.
+	-Clear: Calls pop() until isEmpty() is true.
+	-IsFull: Always returns false
+	-IsEmpty: If top == nullptr, return true, else return false.
+	-showStructure: Provided by Instructor.
+
+**postfix.cpp**
+
+	-getPostFix: Prompts the user for a postfix equation and stores it into a char array.
+	-print: Prints the values within an array
+	-exponent: takes in a number and a power to raise it to. Returns result.
+	-userMenu: Presents the user with a menu and returns their choice.
+	-evaluate: takes in the user inputted array that contains the postfix expression. Then, iterating through the array, pushes any number to the stack. When an operator is found, then it pops the last two inputted numbers and applies the operator. The result of this is pushed onto the stack. This is repeated until the end of the array is hit. At this point, the result is returned. 
+
+**delimiters.cpp**
+
+	-delimitersOk: Takes in a string object, and begins to iterate through it. If an opening brace if found, it gets pushed onto the stack. If a closing brace is found, then pop is called, and the brackets are compared, if they are brackets of the same type, then the program continues. If not, returns false. All other characters besides brackets are ingored. If the loop makes it to the end, then it is a valid expression. 
+
+
+
